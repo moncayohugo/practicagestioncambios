@@ -1,0 +1,11 @@
+CREATE TABLE [dbo].[FABRICA]
+(
+[FABRICAID] [int] NOT NULL,
+[NOMBRREFABRICA] [char] (10) COLLATE Modern_Spanish_CI_AS NOT NULL,
+[NOMBRECONTACTO] [char] (50) COLLATE Modern_Spanish_CI_AS NOT NULL,
+[DIRECCIONFABRICA] [char] (50) COLLATE Modern_Spanish_CI_AS NOT NULL,
+[FAX] [char] (12) COLLATE Modern_Spanish_CI_AS NULL,
+[EMAIL] [char] (50) COLLATE Modern_Spanish_CI_AS NULL,
+[CELULAR] [char] (12) COLLATE Modern_Spanish_CI_AS NULL
+) ON [PRIMARY]
+GO
